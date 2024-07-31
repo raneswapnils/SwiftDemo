@@ -28,6 +28,13 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         
+        HStack {
+            Image(systemName: "test")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        
     }
 }
 
