@@ -35,6 +35,29 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         
+        VStack {
+            HStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
+            }
+            
+            HStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
+            }
+            
+            HStack {
+                Image(systemName: "test")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
+            }
+        }
+        
     }
 }
 
